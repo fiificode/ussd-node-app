@@ -1,5 +1,5 @@
 const app = require('express');
-const bodyParser = requiere('body-parser');
+const bodyParser = require('body-parser');
 const logger = require('morgan');
 
 const port = process.env.PORT || 3300
